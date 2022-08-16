@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Управление на Персонала" id="73A5993F-09E7-7356-8D45-74C3D065FE97" version="3.5">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:26:33 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>73A5993F-09E7-7356-8D45-74C3D065FE97</designId>
+</OSDM_Design>
