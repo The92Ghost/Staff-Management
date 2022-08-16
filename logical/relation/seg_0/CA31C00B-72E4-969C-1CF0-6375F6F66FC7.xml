@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Abscense/Presence_Calendar_FK" directorySegmentName="seg_0" id="CA31C00B-72E4-969C-1CF0-6375F6F66FC7">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>DF6C6EF4-1CC0-20F4-3D47-41519A2DFAAB</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<sourcePk>4426EC6E-548F-1D29-2AF0-81551409E9FC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1DBE4724-3753-A443-8997-A681B5976332</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE97362A-4C45-C77D-119B-2F3E03536F13</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

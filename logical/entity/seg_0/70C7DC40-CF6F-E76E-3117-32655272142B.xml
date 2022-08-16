@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70C7DC40-CF6F-E76E-3117-32655272142B" name="Language Queue">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>F3A45BFE-7BFF-0B37-28DE-F93BC55CE7C7</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Employee" id="83231D58-EE2B-BDBF-C73E-697E2BA25090">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>11D25968-8B16-BAEC-4BC5-12E660D513DB</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<referedAttribute>20BD9A36-DED8-4EF6-0162-3DAF4167667C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Language" id="99246057-6E00-4942-C5A1-E01A4A84289C">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>E58A12A1-EA54-88F6-1EC4-5E7C469DF295</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<referedAttribute>BF7FF8BA-77F3-A545-87D5-8E4703BACAB6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3216DF02-CF3E-B2A0-BCE0-D2E26C54D2A6" name="Language Queue PK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>260E023B-8FEC-2DD9-796E-82296A92220F</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83231D58-EE2B-BDBF-C73E-697E2BA25090</attributeRef>
+<attributeRef>99246057-6E00-4942-C5A1-E01A4A84289C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

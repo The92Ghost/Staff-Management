@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF6C6EF4-1CC0-20F4-3D47-41519A2DFAAB" containerWithKeyObject="734F64AA-4644-9DD2-BB48-74AB2DAE3B8A" localFKIndex="C662826E-E711-664A-5E80-C347D7FA497D" name="Abscense/Presence_Calendar_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:16:50 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<referredTableLongName>Calendar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>68FF1CBC-0825-CB11-0579-7A08509F2D80</referredTableID>
+<keyObject>E7A895A2-CF61-C6A3-D475-52B2B0AF8A40</keyObject>
+<referredKeyID>E7A895A2-CF61-C6A3-D475-52B2B0AF8A40</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Calendar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

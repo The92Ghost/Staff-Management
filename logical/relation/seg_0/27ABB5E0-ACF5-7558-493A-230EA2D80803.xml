@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Abs Pr Personal  Info FK" directorySegmentName="seg_0" id="27ABB5E0-ACF5-7558-493A-230EA2D80803">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>EA83E1A2-E701-CB90-1BFD-955D89725CA9</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<sourcePk>68CE7ABD-2910-39B0-9055-E73EA962B2FE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC203B75-0963-9E14-0A16-D6D7097B240C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE97362A-4C45-C77D-119B-2F3E03536F13</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

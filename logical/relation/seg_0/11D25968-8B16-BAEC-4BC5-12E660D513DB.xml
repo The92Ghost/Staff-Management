@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Languages Employoyees Info FK" directorySegmentName="seg_0" id="11D25968-8B16-BAEC-4BC5-12E660D513DB">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>B90BA723-C608-7481-4278-C87C95E41DB8</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<sourcePk>68CE7ABD-2910-39B0-9055-E73EA962B2FE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC203B75-0963-9E14-0A16-D6D7097B240C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>70C7DC40-CF6F-E76E-3117-32655272142B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

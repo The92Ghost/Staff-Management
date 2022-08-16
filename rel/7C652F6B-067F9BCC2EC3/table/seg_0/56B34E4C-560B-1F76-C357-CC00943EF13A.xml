@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56B34E4C-560B-1F76-C357-CC00943EF13A" name="Abscence_Type">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:15:02 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Abscense_Type" id="9AF5DA76-C00E-BC67-29BF-1A5A41EAFE94">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:16:58 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type_Abscence_Name" id="3E9D8788-5AE1-5274-E3FC-274116531D5F">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:17:27 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MaxDays" id="292ABCEF-8E33-21CD-98EC-652EE042265B">
+<createdBy>rayne</createdBy>
+<createdTime>2020-12-17 10:03:36 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02D7C9E0-A4AC-00A3-EE46-31130929DC8F" name="Abscence_Type_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:16:58 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AF5DA76-C00E-BC67-29BF-1A5A41EAFE94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

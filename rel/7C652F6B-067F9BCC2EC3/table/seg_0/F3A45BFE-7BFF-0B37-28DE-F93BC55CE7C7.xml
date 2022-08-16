@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3A45BFE-7BFF-0B37-28DE-F93BC55CE7C7" name="Language_Queue">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:22:50 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Employee" id="7D76B722-4D52-0E92-1CA5-6762FABDD2C7">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:23:57 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B90BA723-C608-7481-4278-C87C95E41DB8" referredColumn="C02A3F50-1987-99E6-6F3B-2BF275F998B4"/>
+</associations>
+</Column>
+<Column name="ID_Language" id="37CDC457-6BBE-4B98-8618-4A190AD1CABB">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:24:16 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="653499E2-D116-5A6B-9045-7641A70977BF" referredColumn="E8250F90-C15C-2BB6-6C02-05FC3C72DAC5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="260E023B-8FEC-2DD9-796E-82296A92220F" name="Language_Queue_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 06:56:00 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D76B722-4D52-0E92-1CA5-6762FABDD2C7"/>
+<colUsage columnID="37CDC457-6BBE-4B98-8618-4A190AD1CABB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A57B3062-17CA-5AF5-6CBB-E48897129810" name="Language_Queue_Languages_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:24:24 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37CDC457-6BBE-4B98-8618-4A190AD1CABB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="418D4D4C-1358-2C37-CC50-201BA9FE3488" name="Languages_Employoyees_Info_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:24:52 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D76B722-4D52-0E92-1CA5-6762FABDD2C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

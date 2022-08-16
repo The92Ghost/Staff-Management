@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAFDBABC-080E-DB06-0C54-F8E60C4391D3" name="Months">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:09:10 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Month" id="83FFF8C9-BB8E-7B7E-0FE6-DD507FDF4A98">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:09:26 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Month_Name" id="189A7375-FE70-98E1-01E5-4292DD600D47">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:09:40 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA024D89-39D0-059E-D1A2-C4F0017AF906" name="Months_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:09:26 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83FFF8C9-BB8E-7B7E-0FE6-DD507FDF4A98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

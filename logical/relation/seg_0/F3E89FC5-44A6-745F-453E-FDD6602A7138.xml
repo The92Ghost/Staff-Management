@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Calendar_Months_FK" directorySegmentName="seg_0" id="F3E89FC5-44A6-745F-453E-FDD6602A7138">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>1BF4AA6B-5114-F65B-8F84-A33766BE7B81</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<sourcePk>7235C98A-2107-7FE8-3695-B3544F0AC29C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B584687E-A6B2-2D55-99E2-A0C6E75ADBFD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1DBE4724-3753-A443-8997-A681B5976332</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

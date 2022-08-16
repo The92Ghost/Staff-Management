@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DE54561-77C1-C82D-B40A-CB7634B9D417" name="Departments">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:33:08 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Department" id="F40C7E0C-E1C9-6537-3B22-4527EA5390BC">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:33:26 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_Name" id="3FDFEE49-DEB1-DDC0-0A6B-7F89F163FF87">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:33:41 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32AACE8B-C65C-E9CD-77D3-C8EED05DF3B3" name="Departments_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:33:26 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F40C7E0C-E1C9-6537-3B22-4527EA5390BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

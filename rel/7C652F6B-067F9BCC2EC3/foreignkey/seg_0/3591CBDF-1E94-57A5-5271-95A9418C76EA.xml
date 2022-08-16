@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3591CBDF-1E94-57A5-5271-95A9418C76EA" containerWithKeyObject="F6BE5FE1-A042-227F-3260-9DF0F12A12DE" localFKIndex="AD0DDC0F-D70B-B706-208D-592F849B18B5" name="ID_Absence_Type_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:16:18 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<referredTableLongName>Abscence_Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>56B34E4C-560B-1F76-C357-CC00943EF13A</referredTableID>
+<keyObject>02D7C9E0-A4AC-00A3-EE46-31130929DC8F</keyObject>
+<referredKeyID>02D7C9E0-A4AC-00A3-EE46-31130929DC8F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Abscense_Type</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

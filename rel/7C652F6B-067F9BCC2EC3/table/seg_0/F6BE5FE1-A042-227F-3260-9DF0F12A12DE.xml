@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6BE5FE1-A042-227F-3260-9DF0F12A12DE" name="ID_Absence">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:14:17 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Absence_And_Presence" id="AFED286F-87CE-E41C-B82C-7554D420573C">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:14:35 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E95E2CBB-C748-DE2F-E2EE-98D6F935FE1B" referredColumn="78295538-CE38-B05B-B382-492C974B869D"/>
+</associations>
+</Column>
+<Column name="ID_Abscense_Type" id="25D848B6-869F-041B-9590-1F91C1FA37EE">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:15:04 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3591CBDF-1E94-57A5-5271-95A9418C76EA" referredColumn="9AF5DA76-C00E-BC67-29BF-1A5A41EAFE94"/>
+</associations>
+</Column>
+<Column name="Count_Absence" id="115FD2DE-4C66-D7E6-A4DB-00839A0C321E">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:15:04 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE5271C4-616D-B831-E027-AA7ECE28FB1A" name="ID_Absence_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:26:43 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFED286F-87CE-E41C-B82C-7554D420573C"/>
+<colUsage columnID="25D848B6-869F-041B-9590-1F91C1FA37EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD0DDC0F-D70B-B706-208D-592F849B18B5" name="ID_Absence_Type_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:16:18 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D848B6-869F-041B-9590-1F91C1FA37EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C1E7549-1AAA-83C4-C676-BC27AF8731D8" name="ID_Absence/Prescense_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:20:59 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFED286F-87CE-E41C-B82C-7554D420573C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

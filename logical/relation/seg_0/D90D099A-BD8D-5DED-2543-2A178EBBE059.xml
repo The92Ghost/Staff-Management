@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ID Absence/Prescense FK" directorySegmentName="seg_0" id="D90D099A-BD8D-5DED-2543-2A178EBBE059">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>E95E2CBB-C748-DE2F-E2EE-98D6F935FE1B</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<sourcePk>3F15FDA2-072F-567E-8B35-C7CAB87071ED</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE97362A-4C45-C77D-119B-2F3E03536F13</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B6E6CFB-691B-C5A6-1860-21519EF2D62C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

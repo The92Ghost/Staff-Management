@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BF4AA6B-5114-F65B-8F84-A33766BE7B81" containerWithKeyObject="68FF1CBC-0825-CB11-0579-7A08509F2D80" localFKIndex="3A7A843D-AA62-EBC2-A2CB-D1BBEB6D0014" name="Calendar_Months_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:10:54 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<referredTableLongName>Months</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DAFDBABC-080E-DB06-0C54-F8E60C4391D3</referredTableID>
+<keyObject>FA024D89-39D0-059E-D1A2-C4F0017AF906</keyObject>
+<referredKeyID>FA024D89-39D0-059E-D1A2-C4F0017AF906</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Month</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

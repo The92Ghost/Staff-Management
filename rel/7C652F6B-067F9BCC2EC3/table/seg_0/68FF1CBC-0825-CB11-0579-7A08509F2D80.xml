@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68FF1CBC-0825-CB11-0579-7A08509F2D80" name="Calendar">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:51:24 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Calendar" id="CF54AEE1-CD37-5E46-A302-0BA97669A190">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:52:01 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Month" id="A15C9500-4801-0679-0603-1BE9174F6115">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:52:24 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BF4AA6B-5114-F65B-8F84-A33766BE7B81" referredColumn="83FFF8C9-BB8E-7B7E-0FE6-DD507FDF4A98"/>
+</associations>
+</Column>
+<Column name="Year" id="A787AE73-1337-6438-3575-F59DA814305F">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:52:37 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Maximum_Days_Month" id="F8BB47C6-3013-F075-427A-6D7151463C72">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:11:34 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7A895A2-CF61-C6A3-D475-52B2B0AF8A40" name="Calendar_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:52:01 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF54AEE1-CD37-5E46-A302-0BA97669A190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A7A843D-AA62-EBC2-A2CB-D1BBEB6D0014" name="Calendar_Months_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 08:10:54 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A15C9500-4801-0679-0603-1BE9174F6115"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

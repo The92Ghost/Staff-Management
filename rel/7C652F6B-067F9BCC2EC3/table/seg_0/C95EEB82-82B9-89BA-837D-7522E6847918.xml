@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C95EEB82-82B9-89BA-837D-7522E6847918" name="Employees_Information">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:27:28 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Employee" id="C02A3F50-1987-99E6-6F3B-2BF275F998B4">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:31:41 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="9DF3484B-73DF-189E-9C53-782CCFB81042">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:31:41 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="18D114FC-2459-9DDE-CAE2-DE2662A07184">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:31:41 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Position" id="252902AC-B24A-16FE-FC4B-1D0385C0C0D0">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:31:41 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E05565DD-C207-818E-F3FC-7696F4DF48C0" referredColumn="EE7CB0A7-BC8F-8B05-632A-B31ADAC8C10F"/>
+</associations>
+</Column>
+<Column name="ID_Department" id="1192B9D8-D778-FE30-5A20-3CFF3732BEBE">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:31:41 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01D6C106-6E66-D120-0BBE-66B3D5D53F70" referredColumn="F40C7E0C-E1C9-6537-3B22-4527EA5390BC"/>
+</associations>
+</Column>
+<Column name="Salary" id="280775E0-172E-CD2C-C862-E6F4A47BCAF5">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:31:41 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Starting_Date" id="9B9DCE57-003D-62F0-F620-DA1F2E007648">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:31:41 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A2C53D1-AEC0-84C2-6C14-5D365CE483C9" name="Personal_ Information_PK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 06:31:41 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C02A3F50-1987-99E6-6F3B-2BF275F998B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B47BA26-198C-6B04-B221-60E4C4BB15E4" name="Personal_ Info_Positions_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:02:32 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="252902AC-B24A-16FE-FC4B-1D0385C0C0D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E731223-56F7-C2C1-33B8-CAD531918568" name="Personal_ Info_Depart_FK">
+<createdBy>rayne</createdBy>
+<createdTime>2020-09-24 07:03:06 UTC</createdTime>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1192B9D8-D778-FE30-5A20-3CFF3732BEBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

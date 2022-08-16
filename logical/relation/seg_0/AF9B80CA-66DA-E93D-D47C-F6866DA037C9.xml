@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Personal  Info Positions FK" directorySegmentName="seg_0" id="AF9B80CA-66DA-E93D-D47C-F6866DA037C9">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>E05565DD-C207-818E-F3FC-7696F4DF48C0</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<sourcePk>398362C6-28D0-8552-6CD3-4C61CECCF58A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>265C3F2D-FDFB-4C81-EE0B-F23F1F0C458E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EC203B75-0963-9E14-0A16-D6D7097B240C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

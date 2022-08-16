@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Language_Queue_Languages_FK" directorySegmentName="seg_0" id="E58A12A1-EA54-88F6-1EC4-5E7C469DF295">
+<createdBy>rayne</createdBy>
+<createdTime>2020-10-01 07:28:11 UTC</createdTime>
+<generatorID>653499E2-D116-5A6B-9045-7641A70977BF</generatorID>
+<ownerDesignName>Управление на Персонала</ownerDesignName>
+<engineerTo>
+<item key="7C652F6B-A5A8-AD7C-0205-067F9BCC2EC3" value="true"/>
+</engineerTo>
+<sourcePk>09A768D2-2DD7-F797-169A-7B7BE8252D52</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B114E672-FF44-E0A5-725E-1D6108DA2554</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>70C7DC40-CF6F-E76E-3117-32655272142B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
